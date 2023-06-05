@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class Solution { // replace를 사용하면 2줄짜리 문제임
     public String solution(String my_string, String letter) {
         String answer = "";
 		String[] list = new String[my_string.length()];
