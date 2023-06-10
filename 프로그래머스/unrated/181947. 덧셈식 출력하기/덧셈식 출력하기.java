@@ -6,6 +6,6 @@ public class Solution {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = a + b;
-		System.out.println(a + " + " + b + " = " + c);
+		System.out.printf("%d + %d = %d",a,b, c);
     }
 }
