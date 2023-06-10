@@ -7,7 +7,7 @@ class Solution {
 					test += num_list[i];
 					answer = test;
 				}else {
-					answer = answer * num_list[i];				}
+					answer *=  num_list[i];				}
 			}
 			return answer;
     }
