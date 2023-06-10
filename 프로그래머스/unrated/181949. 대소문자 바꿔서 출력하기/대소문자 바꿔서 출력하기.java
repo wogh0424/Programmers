@@ -6,11 +6,11 @@ public class Solution {
 		String a = sc.next();
 		String abb = "";
 		char[] as = a.toCharArray();
-		for (int i = 0; i < as.length; i++) {
-			if (Character.isLowerCase(as[i])) {
-				abb += Character.toUpperCase(as[i]);
+		for (Character c : as) {
+			if (Character.isLowerCase(c)) {
+				abb += Character.toUpperCase(c);
 			} else {
-				abb += Character.toLowerCase(as[i]);
+				abb += Character.toLowerCase(c);
 			}
 
 		}
